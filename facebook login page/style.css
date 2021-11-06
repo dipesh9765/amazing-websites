@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #f0f2f5;
+  display: flex;
+  width: 100%;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container p {
+  font-size: 28px;
+  width: 600px;
+  padding: 0 28px;
+  
+}
+.logoBox {
+  left: 0;
+  width: 50%;
+}
+.logoBox p {
+  line-height: 32px;
+  /* width: 450px; */
+  padding-right: 30px;
+}
+
+.boxIn {
+  display: inline-block;
+  width: 396px;
+  height: 420px;
+}
+.boxIn .boxContentMain {
+  align-items: center;
+  margin-top: 40px;
+  padding: 10px 0 0 0;
+  background-color: #fff;
+  display: flex;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  height: 348.6px;
+  width: 100%;
+  border-radius: 9px;
+}
+
+.boxIn .boxContentMain :placeholder-shown {
+  font-size: 17px;
+  padding: 14px 16px;
+  opacity: 0.5;
+  font-family: inherit;
+
+  width: 365px;
+}
+
+.boxIn form {
+  height: 100%;
+}
+
+.boxIn form .main input {
+  display: block;
+  margin: 10px auto;
+
+  border: 0.8px solid grey;
+  border-radius: 7px;
+  width: 364px;
+}
+
+.boxIn .boxContentMain .btn {
+  margin: 12px 0;
+  display: block;
+  background-color: hsl(214.2, 82.5%, 49.2%);
+  height: 48px;
+  text-align: center;
+  width: 365px;
+  font-size: 12px;
+  border-radius: 6px;
+}
+
+.boxIn .boxContentMain button {
+  padding: 3px 0;
+  padding: 0 16px;
+  line-height: 44px;
+  letter-spacing: 1.2px;
+  font-size: 20px;
+  color: white;
+  background: none;
+  border: none;
+  font-weight: 550;
+}
+.boxIn .boxContentMain .btn:hover {
+  cursor: pointer;
+  background-color: rgb(17, 92, 190);
+  transition: 200ms;
+}
+.box1 .boxIn .boxContentMain .forget {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.box1 .boxIn .boxContentMain .forget a {
+  text-decoration: none;
+  color: #1877f2;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.box1 .boxIn .boxContentMain .line {
+  display: flex;
+
+  border-bottom: 1px solid #dadde1;
+  align-items: center;
+
+  margin: 16px 20px;
+  text-align: center;
+  width: 365px;
+  height: 0.77px;
+}
+.box1 .boxIn .boxContentMain .createNew {
+  background-color: #42b72a;
+  border-radius: 6px;
+  margin: 6px;
+  height: 50px;
+}
+
+.box1 .boxIn .boxContentMain .createNew a {
+  text-align: center;
+  position: relative;
+  color: white;
+  line-height: 3;
+  margin: 20px 0;
+  padding: 15px 29px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.box1 .boxIn .boxContentMain .createNew:hover {
+  background-color: #349e1f;
+  transition: 200ms;
+}
+
+.box1 .createPage {
+  text-align: center;
+  color: black;
+  padding: 0px;
+  font-size: 15px;
+}
+.box1 .createPage a {
+  color: black;
+  font-weight: 550;
+}
+
+footer {
+  display: block;
+  position: absolute;
+
+  padding: 20px 250px;
+}
+
+footer .foot1 {
+  padding: top 5px;
+  color: grey;
+  font-size: 12px;
+}
+
+.foot1 li {
+  display: inline-block;
+  list-style: none;
+  padding:  5px;
+  white-space: nowrap;
+}
+.foot1 li a {
+  text-decoration: none;
+  color: grey;
+  font-size: 12px;
+}
+.foot1 li a:hover,
+.foot2 li a:hover {
+  cursor: pointer;
+  border-bottom: 1px solid grey;
+  transition: 0.3s;
+}
+.foot .line {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #dadde1;
+  align-items: center;
+
+  margin: 0px 0px;
+  text-align: center;
+  width: 100%;
+  height: 0.77px;
+}
+
+footer .foot2 {
+  padding: 0px 5px ;
+  color: aqua;
+}
+
+.foot2 li {
+  display: inline-block;
+  list-style: none;
+  padding: 5px;
+}
+.foot2 li a {
+  text-decoration: none;
+  color: grey;
+  font-size: 12px;
+}
+
+.copyright span {
+  font-size: 11px;
+  color: gray;
+  padding-left: 10px;
+}
+
+@media (max-width: 1060px) {
+  .container {
+    display:  block;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 25vw;
+    width: 100vw;
+  }
+  .box1 .createPage {
+    width: 400px;
+  }
+  .container img{ 
+    padding: 10px;
+    margin-left: 28px;
+  }
+  .container p {
+     height:56px;
+    
+    width: 400px;
+    font-size: 25px;
+    font-weight: 400;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+}
