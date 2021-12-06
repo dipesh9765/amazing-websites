@@ -1,0 +1,39 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+
+body {
+  font-family: "Concert One", cursive;
+  background-color: #234911;
+}
+
+.clock {
+  /* position: relative; */
+/* background: #333; 
+  color: rgb(251, 199, 199);
+  width: 50%;
+  font-size: 150px;
+  text-align: center;
+  top: 30vh;
+  /* left: 30vw; */
+/* } 
+.clock-ampm {
+  font-size: 110px;
+} */
+
+.clock {
+  background: #333;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.clock-time,
+.clock-ampm {
+  font-family: sans-serif;
+  font-size: 38px;
+  color: #eeeeee;
+}
+
+.clock-time {
+  font-size: 40px;
+}
